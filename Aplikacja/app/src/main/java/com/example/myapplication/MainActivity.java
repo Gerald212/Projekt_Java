@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         HttpURLConnection urlConnection = null;
 
         try {
-            URL url = new URL("http://192.168.31.47:8080/test/hello");
+            URL url = new URL("http://192.168.129.31:8080/test/hello");
             urlConnection = (HttpURLConnection) url.openConnection();
 
             InputStream in = new BufferedInputStream(urlConnection.getInputStream());
